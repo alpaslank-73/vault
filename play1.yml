@@ -1,0 +1,11 @@
+- name: play1
+  gather_facts: no
+  hosts: localhost
+  vars_files:
+  - vars/myvar1.yaml
+  - vars/myvar2.yaml
+  tasks:
+  - debug:
+      msg:
+        - "{{ user1 }} password is {{ pass1 }}"
+        - "{{ user2 }} password is {{ pass2 }}"

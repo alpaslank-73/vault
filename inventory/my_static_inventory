@@ -1,0 +1,16 @@
+[webservers]
+servera
+serverb
+
+[dbservers]
+serverc
+serverd
+
+[mailservers]
+servere
+serverf
+
+[servers:children]
+webservers
+dbservers
+mailservers
