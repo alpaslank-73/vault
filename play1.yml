@@ -4,6 +4,9 @@
   vars_files:
   - vars/myvar1.yaml
   - vars/myvar2.yaml
+  - vars/myvar3.yaml
+  - vars/myvar4.yaml
+  - vars/myvar5.yaml
   tasks:
   - debug:
       msg:
