@@ -1,6 +1,6 @@
 - name: play1
-  gather_facts: no
-  hosts: localhost
+  gather_facts: yes
+  hosts: servera.lab.example.com
   vars_files:
   - vars/myvar1.yaml
   - vars/myvar2.yaml
