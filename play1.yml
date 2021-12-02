@@ -16,3 +16,4 @@
         - "{{ user4 }} password is {{ pass4 }}"
         - "{{ user5 }} password is {{ pass5 }}"
         - "{{ ansible_distribution }}"
+        - "{{ ansible_facts['distribution'] }}"
